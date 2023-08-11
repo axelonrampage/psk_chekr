@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Checker</h1>
+        <div class="password-input">
+            <input type="password" id="password" placeholder="Enter your password">
+            <button id="toggle-password" onclick="togglePasswordVisibility()">Show</button>
+        </div>
+        <p id="password-strength"></p>
+    </div>
+    <center>
+    <div class="instructions-box">
+        <p class="instructions">
+            A good password should:
+            <ul>
+                <li>Be over 8 characters long</li>
+                <li>Contain at least one uppercase letter</li>
+                <li>Contain at least one lowercase letter</li>
+                <li>Contain at least one digit</li>
+                <li>Contain at least one special symbol</li>
+            </ul>
+        </p>
+    </div>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
